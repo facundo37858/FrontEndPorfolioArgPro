@@ -1,0 +1,13 @@
+{
+    "name":"Facundo Garcia",
+    "aboutMe":"Hola soy Facundo Jr.Developer",
+    "urlPhotoProfile":"../assets/imags/photo-perfil.jpg",
+    "urlImageStack":[
+        "../../../assets/icons/css-3.png",
+        "../../../assets/icons/html-5.png",
+        "../../../assets/icons/expressjs.png",
+        "../../../assets/icons/node-js.png",
+        "../../../assets/icons/react.png",
+        "../../../assets/icons/javascript-logo.svg"
+    ]
+}
