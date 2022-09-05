@@ -4,7 +4,7 @@
 }
 
 .navbar-nav {
-    gap: 200px;
+    /* gap: 200px; */
 }
 .img-fluid{
     width: 50px;
@@ -19,5 +19,5 @@
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
-    gap:0
+    gap:10rem
 }

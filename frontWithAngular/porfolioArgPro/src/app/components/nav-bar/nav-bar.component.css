@@ -1,0 +1,22 @@
+
+.navbar-nav {
+    display: flex;
+    /* flex-direction: column; */
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    /* gap:10rem */
+}
+
+@media screen and (max-width:600px) {
+    .navbar-nav {
+        gap: 0;
+    }
+    
+}
+@media screen and (min-width:600px) {
+    .navbar-nav {
+        gap: 10rem;
+    }
+    
+}
