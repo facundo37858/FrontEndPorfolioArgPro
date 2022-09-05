@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PorfolioService } from 'src/app/services/porfolio.service';
 
 @Component({
   selector: 'app-stack',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./stack.component.css']
 })
 export class StackComponent implements OnInit {
-
-  constructor() { }
+  urlImages!:[string]
+  constructor( private data:PorfolioService) { }
 
   ngOnInit(): void {
+
+    this.data.getData().subscribe(data=>{
+      this.urlImages=data.urlImageStack
+    })
   }
+
 
 }
