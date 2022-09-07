@@ -9,5 +9,6 @@
         "../../../assets/icons/node-js.png",
         "../../../assets/icons/react.png",
         "../../../assets/icons/javascript-logo.svg"
-    ]
+    ],
+    "urlImgBbunner":"../../../assets/imags/banner.png"
 }

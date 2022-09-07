@@ -8,11 +8,13 @@ import { PorfolioService } from 'src/app/services/porfolio.service';
 })
 export class HeaderComponent implements OnInit {
   dataName!:string
+  imgeUrlbunner!:string
   constructor( private data:PorfolioService) { }
 
   ngOnInit(): void {
     this.data.getData().subscribe(data=>{
       this.dataName=data.name
+      this.imgeUrlbunner=data.urlImgBbunner
     })
   }
 
