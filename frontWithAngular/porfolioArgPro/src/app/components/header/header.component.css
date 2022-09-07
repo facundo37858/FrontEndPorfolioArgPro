@@ -1,3 +1,26 @@
 .title{
     color: red;
 }
+
+.img-fluid{
+    width: 60%;
+    height: 260px;
+}
+
+span{
+    margin-right: 20px;
+    font-size: 0.6rem;
+    color: #00358e;
+    font-weight: 700;
+}
+div{
+    background-color: #fa34e0b6;
+}
+
+@media screen and (max-width:480px) {
+    .img-fluid{
+        width: 100%;
+        height: 50%;
+    }
+    
+}
