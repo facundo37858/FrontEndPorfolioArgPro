@@ -1,4 +1,7 @@
-
+nav{
+    background-color:#f8d34f;
+    
+}
 .navbar-nav {
     display: flex;
     /* flex-direction: column; */
@@ -9,6 +12,14 @@
 }
 .navbar-brand{
     margin-left: 10%;
+    color: #FA34DF;
+    
+}
+a{
+    color: #FA34DF;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
 }
 [role]{
     border-radius: 0px;

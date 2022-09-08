@@ -1,7 +1,16 @@
-<app-header></app-header>
+<!-- <app-header></app-header>
 <app-nav-bar></app-nav-bar>
 <app-aboutme></app-aboutme>
 <app-stack></app-stack>
-<app-projects></app-projects>
+<app-projects ></app-projects>
 <app-contact></app-contact>
-<app-footer></app-footer>
+<app-footer></app-footer> -->
+<app-header></app-header>
+<section appScrollManager>
+  <app-nav-bar></app-nav-bar>
+  <app-aboutme appScrollSection="aboutme"></app-aboutme>
+  <app-stack></app-stack>
+  <app-projects appScrollSection="projects" ></app-projects>
+  <app-contact appScrollSection="contact"></app-contact>
+</section>
+<app-footer></app-footer> 

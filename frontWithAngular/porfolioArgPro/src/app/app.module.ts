@@ -12,6 +12,10 @@ import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule} from '@angular/common/http'
 import { RouterModule} from '@angular/router';
+import { ScrollAnchorDirective } from './directives/scroll-anchor.directive';
+import { ScrollSectionDirective } from './directives//scroll-section.directive';
+import { ScrollManagerDirective } from './directives/scroll-manager.directive';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,13 +26,17 @@ import { RouterModule} from '@angular/router';
     StackComponent,
     ProjectsComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    ScrollAnchorDirective,
+    ScrollManagerDirective,
+    ScrollSectionDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
