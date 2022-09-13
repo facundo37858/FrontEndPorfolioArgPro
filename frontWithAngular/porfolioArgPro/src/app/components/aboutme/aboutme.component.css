@@ -1,0 +1,20 @@
+.container-fluid{
+    background-color: #f8d34f;
+    border-radius: 60px;
+}
+
+.img-thumbnail{
+   /* padding: 1rem; */
+   background-color: #FA34DF;
+   /* border: 1pxsolidvar(--bs-border-color); */
+   border-radius: 0.375rem;
+   max-width: 100%;
+   /* height: auto; */
+   border-radius: 50%;
+   object-fit: cover;
+   image-rendering: pixelated;
+   /* background-color: #B7FADF; */
+   margin: 20px;
+   border: solid 6px #FA34DF;
+   height: 400px;
+}

@@ -1,14 +1,16 @@
-<section title="Stack" class="container-fluid">
+<section title="Stack" class="container-fluid mt-3">
     <div  
     id='stack'
     class="d-flex flex-row justify-content-center align-items-center"
     >
-   
-        <img 
-        *ngFor="let url of urlImages" 
-        [src]="url" class="img-fluid"  
-        [alt]="url.split('/')[5] + '-logo'"
-        >
+        <div class="img-container" *ngFor="let url of urlImages" >
+            <img 
+        
+            [src]="url" class="img-fluid"  
+            [alt]="url.split('/')[5] + '-logo'"
+            >
+        </div>
+     
    
     </div>
   
