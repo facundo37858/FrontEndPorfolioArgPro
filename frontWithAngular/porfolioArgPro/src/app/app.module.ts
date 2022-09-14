@@ -16,6 +16,7 @@ import { ScrollAnchorDirective } from './directives/scroll-anchor.directive';
 import { ScrollSectionDirective } from './directives//scroll-section.directive';
 import { ScrollManagerDirective } from './directives/scroll-manager.directive';
 import { FormsModule } from '@angular/forms';
+import { EducationComponent } from './components/education/education.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { FormsModule } from '@angular/forms';
     FooterComponent,
     ScrollAnchorDirective,
     ScrollManagerDirective,
-    ScrollSectionDirective
+    ScrollSectionDirective,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
