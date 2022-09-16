@@ -3,3 +3,52 @@
     align-items: center;
     justify-content: center;
 }
+#Projects{
+    background-color:#f8d34f;
+    border-radius: 60px;
+    padding: 50px 0 50px;
+}
+.card{
+    background-color: #FDF9C4;
+    border:0.1rem solid #FA34DF;
+    box-shadow: 0px 12px 12px 0px rgb(246 20 191 / 60%);
+    display: block;
+    height: 100%;
+}
+.card-title{
+    color: #FA34DF;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+.card-text{
+    color: #fa34e0bb;
+    font-weight: 400;
+}
+
+li{
+    background-color:#FDF9C4 ;
+    color: #fa34e0bb;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.list-group-item{
+    font-size: 80%;
+}
+.container-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+i{
+    color: #FA34DF;
+}
+a{
+    padding: 5px 10px 5px 10px;
+}
+a:hover, a:focus {
+    background: #B7FADF;
+    text-decoration: none;
+    color: #fa34e0b6;
+    border-radius: 10px;
+}
