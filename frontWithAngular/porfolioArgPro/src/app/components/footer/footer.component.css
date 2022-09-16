@@ -1,1 +1,15 @@
 @import "~bootstrap-icons/font/bootstrap-icons.css";
+
+footer{
+    background-color: #f8d34f;
+}
+a{
+    color: #fa34df;
+    border-color: #fa34df;
+}
+.btn:focus, .btn:hover{
+    background-color: #B7FADF;
+    color:#fa34df;
+    border-color: #fa34df;
+    box-shadow: 0px 0px 3px 4px rgb(183 250 223);
+}

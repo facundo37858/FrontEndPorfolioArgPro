@@ -22,13 +22,33 @@ a{
     letter-spacing: 0.1rem;
 }
 [role]{
-    border-radius: 0px;
+    border-radius: 10px;
     border: none;
 }
 button{
-    border-radius: 0px;
+    border-radius: 10px;
+    margin-left: 0.8rem;
+    color: #FA34DF;
+    border-color: #FA34DF;
+    font-weight: 700;
+    transition: 1000ms;
+    box-shadow:0px 1px 11px 2px rgb(233 10 203);
+    
 }
 
+
+#btn-login:hover, #btn-login:focus {
+    text-decoration: none;
+    box-shadow: inset 0px 1px 11px 2px rgb(233 10 203);
+    
+}
+.btn:focus, .btn:hover{
+    background-color: #f8d34f;
+    color:#fa34df;
+    border-color: #fa34df;
+    box-shadow: 0px 0px 3px 4px rgb(183 250 223);
+    border-radius:10px ;
+}
 @media screen and (max-width:600px) {
     .navbar-nav {
         gap: 0;
