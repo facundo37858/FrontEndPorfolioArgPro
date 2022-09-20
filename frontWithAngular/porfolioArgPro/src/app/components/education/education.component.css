@@ -56,4 +56,13 @@ img{
     width: 100px;
     height: 100px;
     object-fit: cover;
+    margin-right: 20px;
+}
+
+@media screen and (max-width:480px) {
+    .container-info{
+        flex-direction: column;
+        gap: .1rem
+    }
+    
 }
