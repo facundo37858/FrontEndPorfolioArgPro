@@ -1,0 +1,15 @@
+<ng-container *ngIf="show">
+    <div class="modal-container">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">
+                    {{title}}
+                </h4>
+                <i (click)="hideModal()" class="bi bi-x-circle-fill"></i>
+            </div>
+            <div class="modalc-container">
+                <ng-content></ng-content>
+            </div>
+        </div>
+    </div>
+</ng-container>

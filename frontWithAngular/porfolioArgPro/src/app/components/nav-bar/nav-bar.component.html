@@ -1,4 +1,6 @@
-
+<app-modal #modal [title]="'Login In'">
+  <app-login></app-login>
+</app-modal>
 <nav class="navbar navbar-expand-lg " aria-label="Tenth navbar example">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Facudev</a>
@@ -33,7 +35,7 @@
               <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
                 <i class="bi bi-envelope-heart"></i>
               </a>
-              <button id="btn-login"class="btn btn-outline-success" type="submit">Login In</button>
+              <button id="btn-login"class="btn btn-outline-success" type="submit" (click)="modal.showModal()">Login In</button>
            </div>
            
           </li>
