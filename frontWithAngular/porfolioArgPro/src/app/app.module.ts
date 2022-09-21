@@ -19,6 +19,7 @@ import { FormsModule } from '@angular/forms';
 import { EducationComponent } from './components/education/education.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { LoginComponent } from './components/login/login.component';
+import { ExperienceComponent } from './components/experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { LoginComponent } from './components/login/login.component';
     ScrollSectionDirective,
     EducationComponent,
     ModalComponent,
-    LoginComponent
+    LoginComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,

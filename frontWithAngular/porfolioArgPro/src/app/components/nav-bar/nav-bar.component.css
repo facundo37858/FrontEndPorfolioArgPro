@@ -60,7 +60,7 @@ button{
 }
 @media screen and (min-width:600px) {
     .navbar-nav {
-        gap: 6rem;
+        gap: 3.5rem;
     }
     
 }
