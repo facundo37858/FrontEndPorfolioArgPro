@@ -1,0 +1,25 @@
+.btn-submit{
+    width: 100%;
+    background-color: #FA34DF;
+    border: solid 0.2rem #b7fadfb5;
+    border-radius: 10px;
+    padding: 0.5rem;
+    color: #f8d34f;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    box-shadow: 0px 10px 20px 0px rgb(183 250 223);
+    transition: 1000ms;
+}
+.btn-submit:hover, .btn-submit:focus {
+    background: #B7FADF;
+    text-decoration: none;
+    color: #fa34e0b6;
+    border: solid 0.2rem #fa34e0b6;
+    box-shadow: inset 0px 1px 11px 2px rgb(233 10 203);
+    /* border-radius: 10px; */
+}
+input{
+    background-color: #ffffff4f;
+    border: solid 0.1rem #5adddd;
+}
