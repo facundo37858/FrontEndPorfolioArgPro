@@ -7,8 +7,10 @@ import { PorfolioService } from 'src/app/services/porfolio.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  dataName!:string
-  imgeUrlbunner!:string
+  public dataName!:string
+  public imgeUrlbunner!:string
+  
+
   constructor( private data:PorfolioService) { }
 
   ngOnInit(): void {
@@ -17,5 +19,6 @@ export class HeaderComponent implements OnInit {
       this.imgeUrlbunner=data.urlImgBbunner
     })
   }
+
 
 }
