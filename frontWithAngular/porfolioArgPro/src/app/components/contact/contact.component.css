@@ -25,7 +25,7 @@ button{
     font-weight: 800;
     letter-spacing: 0.1rem;
     font-size: 1.2rem;
-    box-shadow: 0px 10px 20px 0px rgb(183 250 223);
+    /* box-shadow: 0px 10px 20px 0px rgb(183 250 223); */
     transition: 1000ms;
 }
 button:hover, button:focus {
