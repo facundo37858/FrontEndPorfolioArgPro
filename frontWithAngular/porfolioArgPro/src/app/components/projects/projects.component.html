@@ -2,13 +2,13 @@
 
   <div class="container-fluid container-card" id="Projects">
     <div class="row">
-      <div class="col">
+      <div class="col" *ngFor="let p of projects">
         <div class="card" style="width: 18rem;">
-          <img src="../../../assets/imags/logoFleet.jpeg" class="card-img-top" alt="...">
+          <img [src]="(p.img)" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Fleet</h5>
+            <h5 class="card-title">{{p.title}}</h5>
               <p class="card-text">
-                fewevwe fwef wf wefbr wefwejh wejf we we foi efoiwefl paonpow powenfpwoe pwoenfpwo pwoenpwoe pwoenffwpo owpenfown pownepfown pownf ownfwpeof
+                {{p.description}}
               </p>
           </div>
           <ul class="list-group list-group-flush">
@@ -16,13 +16,13 @@
               <span>
                 Customer : 
                 <span>
-                  Bootcamp Soy Henry
+                  {{p.customer}}
                 </span>
               </span>
             </li>
             <li class="list-group-item">
               <span>
-                Technologies : React Native, Nodejs, Expressjs, PostgresSQL
+                Technologies : {{p.technologies}}
               </span>
 
             </li>
@@ -31,70 +31,24 @@
                 Year : 
               </span>
               <span>
-                2021
+                {{p.year}}
               </span>
             </li>
           </ul>
           <div class="card-body container-link">
-            <a href="#" class="card-link">
+            <a [href]="(p.links.github)" class="card-link">
               <i class="bi bi-github"></i>
             </a>
-            <a href="#" class="card-link">
+            <a [href]="(p.links.youtube)" class="card-link">
               <i class="bi bi-youtube"></i>
             </a>
-            <a href="#" class="card-link">
+            <a [href]="(p.links.deployPage)" class="card-link">
               <i class="bi bi-box-arrow-up-right"></i>
             </a>
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="../../../assets/imags/LOGOpI2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Countries</h5>
-              <p class="card-text">
-                fewevwe fwef wf wefbr wefwejh wejf we we foi efoiwefl paonpow powenfpwoe pwoenfpwo pwoenpwoe pwoenffwpo owpenfown pownepfown pownf ownfwpeof
-              </p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              <span>
-                Customer : 
-                <span>
-                  Bootcamp Soy Henry
-                </span>
-              </span>
-            </li>
-            <li class="list-group-item">
-              <span>
-                Technologies : React, Nodejs, Expressjs, PostgresSQL
-              </span>
 
-            </li>
-            <li class="list-group-item">
-              <span>
-                Year : 
-              </span>
-              <span>
-                2021
-              </span>
-            </li>
-          </ul>
-          <div class="card-body container-link">
-            <a href="#" class="card-link">
-              <i class="bi bi-github"></i>
-            </a>
-            <a href="#" class="card-link">
-              <i class="bi bi-youtube"></i>
-            </a>
-            <a href="#" class="card-link">
-              <i class="bi bi-box-arrow-up-right"></i>
-            </a>
-
-          </div>
-        </div>
-      </div>
           
     </div>
   </div>

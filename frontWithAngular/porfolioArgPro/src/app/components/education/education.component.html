@@ -1,21 +1,21 @@
 <section title="education">
     <div class="container">
-        <div class="row">
+        <div class="row" *ngFor="let e of education">
             <div class=" b-rounded shadow-sm py-5 px-4 container-info">
                 <img 
-                src="../../../assets/imags/logoHenry.png" 
-                alt="logo-education" 
+                [src]="(e.img)" 
+                alt="logo" 
                 width="100"
                 class="img-fluid  mb-3 img-thumbnail shadow-sm" 
                 >
                 <h5 class="mb-0">
-                    Soy Henry
+                    {{e.nameInstitution}}
                 </h5>
                 <span class="small text-uppercase ">
-                    2021-2022
+                    {{e.startDate}} - {{e.endDate}}
                 </span>
                 <span class="small text-uppercase ">
-                    Full Stack Developer
+                    {{e.title}}
                 </span>
                 <!-- <ul class="social mb-0 list-inline mt-3">
                     <li class="list-inline-item">
@@ -26,32 +26,7 @@
                 </ul> -->
             </div>
         </div>
-        <div class="row">
-            <div class=" b-rounded shadow-sm py-5 px-4 container-info">
-                <img 
-                src="../../../assets/imags/logoUncoma.png" 
-                alt="logo-education" 
-                width="100"
-                class="img-fluid  mb-3 img-thumbnail shadow-sm" 
-                >
-                <h5 class="mb-0">
-                    Uncoma
-                </h5>
-                <span class="small text-uppercase ">
-                    2017 - ...
-                </span>
-                <span class="small text-uppercase ">
-                    Ing.Civil
-                </span>
-                <!-- <ul class="social mb-0 list-inline mt-3">
-                    <li class="list-inline-item">
-                        <a href="#" class="social-link">
-                            <i class="bi bi-box-arrow-up-right"></i>
-                        </a>
-                    </li>
-                </ul> -->
-            </div>
-        </div>
+
 
 
     </div>
