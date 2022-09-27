@@ -15,5 +15,78 @@
         "github":"https://github.com/facundo37858",
         "linkedin":"https://www.linkedin.com/in/facundo-omar-garcia",
         "email":"mailto:facundoomargarcia@gmail.com"
-    }
+    },
+    "projects":[
+        {
+            "title":"FleetD",
+            "img":"../../../assets/imags/logoFleet.jpeg",
+            "description":"Proyecto 1",
+            "customer" :"Name Industry",
+            "technologies":"t1,t2,t3,t4",
+            "year":2021,
+            "links":{
+                "github":"https://github.com/facundo37858",
+                "youtube":"https://youtube.com",
+                "deployPage":""
+            }
+        },
+        {
+            "title":"FleetD",
+            "img":"../../../assets/imags/logoFleet.jpeg",
+            "description":"Proyecto 1",
+            "customer" :"Name Industry",
+            "technologies":"t1,t2,t3,t4",
+            "year":2021,
+            "links":{
+                "github":"https://github.com/facundo37858",
+                "youtube":"https://youtube.com",
+                "deployPage":""
+            }
+        }
+    ],
+    "experience":[
+        {
+            "nameCompany":"Soy Henry",
+            "img":"../../../assets/imags/logoHenry.png",
+            "descriptionTasks":[
+                "task1",
+                "task2",
+                "task3",
+                "task4"
+            ],
+            "startDate" :"02/2022",
+            "endDate" :"02/2023",
+            "positionWork":"Full Stack"
+        },
+        {
+            "nameCompany":"Soy Henry",
+            "img":"../../../assets/imags/logoHenry.png",
+            "descriptionTasks":[
+                "task11",
+                "task22",
+                "task33",
+                "task44"
+            ],
+            "startDate" :"02/2022",
+            "endDate" :"02/2023",
+            "positionWork":"Full Stack"
+        }
+    ],
+    "education":[
+        {
+            "title":"Full Stack Developer",
+            "img":"../../../assets/imags/logoHenry.png",
+            "startDate" :"02/2022",
+            "endDate" :"02/2023",
+            "nameInstitution":"Soy Henry"
+        },
+        {
+            "title":"Full Stack Developer",
+            "img":"../../../assets/imags/logoHenry.png",
+            "startDate" :"02/2022",
+            "endDate" :"02/2023",
+            "nameInstitution":"Soy Henry"
+        }
+    ],
+    "contact":"facundoomargarcia@gmail.com"
 }
