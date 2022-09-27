@@ -45,3 +45,8 @@ i{
     font-size: xx-large;
     cursor: pointer;
 }
+i:hover, i:focus {
+    
+    text-decoration: none;
+    color: #B7FADF;
+} 
